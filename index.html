@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RADAR - Coming Soon</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #0a0f24;
+            color: #fff;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        img {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .coming-soon {
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+
+    <img src="logo.png" alt="RADAR Logo">
+    <h1 class="coming-soon">Coming Soon!</h1>
+    <p>RADAR - Research and Development for Aerial Resistance</p>
+    <p>We're working on something big. Stay tuned!</p>
+
+</body>
+</html>
